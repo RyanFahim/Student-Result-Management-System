@@ -31,21 +31,33 @@ require_once "config.php";
     <title>Student Home</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" style="color:white; font-family: 'Alfa Slab One', cursive;" href="index.php">Brooklyn nine
-          nine! </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <nav class="navbar navbar-expand-lg " style="background-color: #B39CD0;" >
+        <a class="navbar-brand" href="#" style ="color:white; font-family: 'Alfa Slab One', cursive;">Brooklyn  <span style ="font-style :italic; color: #4b4276;" >nine</span> nine</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-    
-    
-        <div class="navbar-collapse collapse">
-          <ul class="navbar-nav ml-auto">
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="logout.php" style="color:white; font-family: 'Alfa Slab One', cursive;"> <i class="fa fa-sign-out"></i> Logout</a>
+              <a class="nav-link" style ="color:white; font-family: 'Open Sans';" href="student_welcome.php"> Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style ="color:white; font-family: 'Open Sans';" href="enroll_course.php">Enroll course</a>
+            </li>
+      
+            <li class="nav-item">
+              <a class="nav-link" style ="color:white; font-family: 'Open Sans';" href="my_courses.php">My course</a>
             </li>
           </ul>
+          <div class="navbar-collapse collapse">
+        <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+        <a class="nav-link" href="logout.php" style ="color:white; font-family: 'Alfa Slab One', cursive;"> <i class="fa fa-sign-out"></i> Logout</a>
+      </li>
+  </ul>
+  </div>
+          
       </nav>
 
 <div class="container mt-4">
@@ -58,15 +70,7 @@ require_once "config.php";
 
 <div class="container">
 
-    <?php if($_SESSION['msg']!="null")
-    {
-        echo '<h5 style="color: green;">'.$_SESSION['msg'].'</h5>';
-    }
-    else
-    {
 
-    }
-     $_SESSION['msg']="null";?>
 </div>
 
 </div>

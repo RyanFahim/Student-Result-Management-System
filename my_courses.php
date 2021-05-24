@@ -20,6 +20,11 @@ require_once "config.php";
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+  <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/design.css">
+
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -46,31 +51,34 @@ require_once "config.php";
       box-shadow: 0px 0px 20px 2px;
     }
   </style>
-    <nav class="navbar navbar-expand-lg" style="background-color: #B39CD0;">
-  <a class="navbar-brand" href="index.php" style ="color:white; font-family: 'Alfa Slab One', cursive;">Brooklyn <span style ="font-style :italic; color: #4b4276;" >nine</span> nine! </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="my_courses.php" style ="color:white;">My courses <span class="sr-only">(current)</span></a>
-        </li>
-
+ <nav class="navbar navbar-expand-lg " style="background-color: #B39CD0;" >
+        <a class="navbar-brand" href="#" style ="color:white; font-family: 'Alfa Slab One', cursive;">Brooklyn  <span style ="font-style :italic; color: #4b4276;" >nine</span> nine</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
       
-      </ul>
-     
-
-      <div class="navbar-collapse collapse">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" style ="color:white; font-family: 'Open Sans';" href="student_welcome.php"> Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style ="color:white; font-family: 'Open Sans';" href="enroll_course.php">Enroll course</a>
+            </li>
+      
+            <li class="nav-item">
+              <a class="nav-link" style ="color:white; font-family: 'Open Sans';" href="my_courses.php">My course</a>
+            </li>
+          </ul>
+          <div class="navbar-collapse collapse">
         <ul class="navbar-nav ml-auto">
         <li class="nav-item active">
-        <a class="nav-link" href="logout.php" style ="color:white;"> <i class="fa fa-sign-out"></i> Logout</a>
+        <a class="nav-link" href="logout.php" style ="color:white; font-family: 'Alfa Slab One', cursive;"> <i class="fa fa-sign-out"></i> Logout</a>
       </li>
   </ul>
   </div>
-  </nav>
+          
+      </nav>
 
 
   <div class="container mt-4">

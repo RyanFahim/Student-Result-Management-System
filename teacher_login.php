@@ -65,8 +65,7 @@ else
 
 <body>
   <nav class="navbar navbar-expand-lg navbar-light">
-    <a class="navbar-brand" href="index.php"> <span style="font-style :italic;">Brooklyn nine nine! </span> </a>
-
+  <a class="navbar-brand" href="index.php" style ="color:white; font-family: 'Alfa Slab One', cursive;">Brooklyn <span style ="font-style :italic; color: #4b4276;" >nine</span> nine! </a>
   </nav>
 
   

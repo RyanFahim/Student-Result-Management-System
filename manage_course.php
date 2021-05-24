@@ -35,7 +35,7 @@ $courseCode=$_GET['course'];
   </head>
   <body>
   <nav class="navbar navbar-expand-lg" style="background-color: #B39CD0;">
-  <a class="navbar-brand" href="index.php" style ="color:white; font-family: 'Alfa Slab One', cursive;">Brooklyn <span style ="font-style :italic; color: #4b4276;" >nine</span> nine! </a>
+  <a class="navbar-brand" href="#" style ="color:white; font-family: 'Alfa Slab One', cursive;">Brooklyn <span style ="font-style :italic; color: #4b4276;" >nine</span> nine! </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -44,7 +44,7 @@ $courseCode=$_GET['course'];
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="my_courses.php" style ="color:white;">My courses <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="teacher_welcome.php" style ="color:white;">My courses <span class="sr-only">(current)</span></a>
         </li>
 
       
